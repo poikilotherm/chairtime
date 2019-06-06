@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Conference Chair Slides</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="lib/css/fontawesome-all.css">
+  </head>
+  <body>
+    <div id="reveal" class="reveal" ondblclick="toogleFullscreen(document.documentElement)">
+      <div class="slides">
+
+        <section data-background-color="#b9d25f" data-timing="600">
+          <h1 style="font-size: 15rem;"><i class="fas fa-hourglass-start"></i> ...</h1>
+        </section>
+        <section data-background-color="#b9d25f" data-timing="300">
+          <h1 style="font-size: 15rem;"><i class="fas fa-hourglass-half"></i> 10 min</h1>
+        </section>
+        <section data-background-color="#faeb5a" data-timing="180">
+          <h1 style="font-size: 15rem;"><i class="fas fa-hourglass-half"></i> 5 min</h1>
+        </section>
+        <section data-background-color="#fab45a" data-timing="60">
+          <h1 style="font-size: 15rem;"><i class="fas fa-hourglass-end"></i> 2 min</h1>
+        </section>
+        <section data-background-color="#eb5f73" data-timing="120">
+          <h1 style="font-size: 15rem;"><i class="fas fa-hourglass-end"></i> 1 min</h1>
+        </section>
+        <section data-background-color="#ffffff" data-timing="60">
+          <h1 style="font-size: 15rem; color: red;"><i class="far fa-hourglass"></i> -1 min</h1>
+        </section>
+        <section data-background-color="#cccccc" data-timing="180">
+          <h1 style="font-size: 15rem; color: red;"><i class="far fa-hourglass"></i> -2 min</h1>
+        </section>
+        <section data-background-color="#000000">
+          <h1 style="font-size: 15rem; color: red"><i class="far fa-hourglass"></i> -5 min</h1>
+        </section>
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="lib/js/fullscreen.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info about config & dependencies:
+      // - https://github.com/hakimel/reveal.js#configuration
+      // - https://github.com/hakimel/reveal.js#dependencies
+      Reveal.initialize({
+        history: true,
+        backgroundTransition: 'slide',
+        defaultTiming: 120,
+        slideNumber: false,
+        progress: false,
+        hideAddressBar: true,
+        width: 1280,
+        height: 720,
+        dependencies: [{ src: 'plugin/notes/notes.js', async: true }]
+      });
+    </script>
+  </body>
+</html>
