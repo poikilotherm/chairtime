@@ -15,6 +15,13 @@ Hit "s" to open notes view with timers.
 This might be extended with auto-sliding and multiplexing for remote control,
 see [upstream project](https://github.com/hakimel/reveal.js).
 
+You might either use it directly from https://poikilotherm.github.io/chairtime
+if the default timeframe of 20 minutes suits your needs.
+
+When you want custom time, simply edit the `data-timing` attribute of the
+first slide. You need to copy the folders mentioned below plus `index.html`
+to some kind of webserver (or open locally in your browser).
+
 ## Folder Structure
 
 - **css/** Core styles without which the project does not function
